@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./App.css";
+import Home from "./components/home";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -11,6 +12,7 @@ function App() {
       <button type="button" onClick={() => setCount((value) => value + 1)}>
         شمارش: {count}
       </button>
+      <Home />
     </div>
   );
 }

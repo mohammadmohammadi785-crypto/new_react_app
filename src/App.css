@@ -1,3 +1,4 @@
+@import "tailwindcss";
 .app {
   max-width: 520px;
   margin: 4rem auto;
