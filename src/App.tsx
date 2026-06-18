@@ -12,7 +12,7 @@ function App() {
       <button type="button" onClick={() => setCount((value) => value + 1)}>
         شمارش: {count}
       </button>
-      <Home />
+      {/* <Home /> */}
     </div>
   );
 }
